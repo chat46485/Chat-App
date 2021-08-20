@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function LoginSignUp_UI(props) {
   return (
     <div className="Login_Page">
+      {props.attemptLogin()}
       {/* Divider first*/}
       <div className="LoginSignUp_divider_first">
         <h3 id="LoginSignup_AppName">Newton Messenger</h3>
