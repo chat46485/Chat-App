@@ -1,0 +1,31 @@
+.Navbar_Chat {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 0;
+    top: 0%;
+    left: auto;
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 7px;
+    width: 65%;
+    border: 1px solid gray;
+}
+
+.Navbar_chat_inner_divider_first{
+    width:70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Navbar_chat_Content{
+    color:#817f7f;
+}
+.Navbar_chat_Content:hover{
+    color:black;
+}
+
+
+#Navbar_chat_home{
+    margin-left: 1vw; 
+}

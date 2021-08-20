@@ -11,11 +11,7 @@ function LoginSignUp_UI(props) {
         <form className="LoginSignUp_form">
           <p id="Login_text">Login</p>
 
-
           <input type="text" class="login_Inputtext" placeholder="Enter Your Name" name="name" onChange={(e) => { props.data.username = e.target.value }}></input>
-
-
-
         </form>
         <div className="LoginSignup_btn_divider">
           <button id="btn_attempt_login_signup" onClick={() => props.handleLogin()}>Login</button>

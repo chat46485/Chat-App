@@ -7,10 +7,10 @@ function PushMessage(msg, from, to) {
 }
 
 function SendMessageComponent(props) {
-    let text = "sample_message"
+    let text = "Hii"
     return (
         <div className="SendMessageComponent">
-            <input type="text" class="send_message" onChange={(e) => text = (e.target.value)}></input>
+            <input type="text" class="send_message" placeholder={"Send Hii to "+props.to} onChange={(e) => text = (e.target.value)}></input>
             <button class="button_send_message" onClick={() => PushMessage(text, props.from, props.to)}>Send Message</button>
         </div>
     )

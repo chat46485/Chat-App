@@ -8,39 +8,27 @@
   height: 100%;
 }
 .div_chat{
-  display: flex; 
-  flex-direction: column;
-  background-color: brown;
+  height: 100%;
   width: 65%;
   right: 0;
-  margin-top: 20px;
   position: fixed;
+  -ms-overflow-style: none; 
   overflow-y: scroll;
-  background-image: url('./51edc046eb80046ee4755ee71d0f19ca.jpeg');
+  background-image: url('./background.png');
 
 }
-.send_message{
-   width: 54vw;
-   height:6vh;
-   outline: none;
-   border: 1px solid black;
-   border-radius: 30px 30px 30px 30px;
-   margin-right: 6px;
-}
-.button_send_message{
-  border-radius: 30px 30px 30px 30px;
-  outline: none;
-  border: 2px black;
-}
+
 
 .div_messages{
-  height: 100vh;
+  margin-top: 5vh;
+  height: 80vh;
+  margin-bottom: 5vh;
 }
 .div_send_message{
   position: fixed;
   bottom: 0;
   background-color: gray;
 }
-::-webkit-scrollbar-thumb {
-  background: #FF0000;
+div::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }

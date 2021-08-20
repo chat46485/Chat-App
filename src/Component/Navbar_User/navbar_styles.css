@@ -1,0 +1,40 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 0;
+    top: 0%;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 7px;
+    width: 35%;
+    border: 1px solid gray;
+}
+
+.Navbar_inner_divider_first{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.Navbar_Content{
+    width: 60%;
+    margin-right: 0;
+    left: auto;
+    color:#474747;
+    font-size: 10px;
+    font-weight: 500;
+}
+.Navbar_Content:hover{
+    color:black;
+}
+span{
+    color:#24b600;
+    font-size: 15px;
+}
+
+
+#Navbar_home{
+    width: 40%;
+    margin-left: 1vw; 
+}
