@@ -16,7 +16,7 @@ function UserMessageComponent(props) {
     const [messages, setMessages] = React.useState([])
     setInterval(() => {
         setMessages(getData())
-    }, 500)
+    }, 50)
     return (
         <div className="UserMessages">
             {(messages).map((message) => {

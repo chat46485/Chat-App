@@ -15,7 +15,7 @@ class LoginSignUp extends Component {
   
   attemptLogin(){
     if(window.localStorage.getItem("chat-app-isloggedin")){
-      let name= window.localStorage.getItem("chat-app-loggedin");
+      let name= window.localStorage.getItem("chat-app-isloggedin");
       this.state.loginDetails.username=name
       this.state.props.setLoggedIn(true)
       this.state.props.setUserName(name)
